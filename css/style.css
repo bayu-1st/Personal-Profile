@@ -26,6 +26,17 @@ section{
 }
 
 .skills{
-    background-color: rgb(92, 157, 255);
+    color : white ;
+    background-image: url(../img/skills.jpeg);
+    background-size: cover;
+}
 
+.php{
+    background-color: #8993be;
+}
+.js{
+    background-color: #f3e11d;
+}
+.ps{
+    background-color: #080049;
 }
