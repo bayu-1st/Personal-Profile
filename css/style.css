@@ -1,7 +1,13 @@
 
+nav{
+    color:white;
+    background-color: rgb(150, 150, 150);
+}
+
 section{
     padding-top: 80px;
     min-height: 600px;
+    padding-bottom: 80px;
 }
 .tagline{
     border-left: 3px solid white;
@@ -39,4 +45,12 @@ section{
 }
 .ps{
     background-color: #080049;
+}
+
+.word{
+    background-color: rgb(75, 117, 255);
+}
+
+.pinnacle{
+    background-color: grey;
 }
