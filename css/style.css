@@ -150,6 +150,22 @@ section{
     overflow: hidden;
     position: relative;
 }
+
+.icn .fa-whatsapp{
+    color: #12d400;
+}
+.icn .fa-facebook{
+    color: #284fff;
+}
+
+.icn .fa-youtube{
+    color:#ff0000;
+}
+.icn .fa-instagram{
+        background: -webkit-linear-gradient(rgb(247, 0, 255), rgb(251, 255, 0));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
 .icn i{
     line-height: 140px;
     font-size: 40px;
@@ -169,6 +185,9 @@ section{
     left: -110%;
     top: 90%;
 }
+
+
+
 .icn:hover::before{
     animation: aaa 0.7s 1;
     top: -10%;
@@ -185,4 +204,9 @@ section{
         top: -10%;
         left: -10%;
     }
+}
+
+.contact{
+    background-image: url(../img/contact.jpeg);
+    background-size: cover;
 }
