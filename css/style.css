@@ -3,7 +3,15 @@ nav{
     color:white;
     background-color: rgb(150, 150, 150);
 }
-
+.navbar-brand{
+    font-family: fantasy;
+}
+.border-left{
+    border-left: 2px solid white;
+}
+.border-right{
+    border-right: 2px solid white;
+}
 section{
     padding-top: 80px;
     min-height: 600px;
@@ -207,6 +215,7 @@ section{
 }
 
 .contact{
+    color: white;
     background-image: url(../img/contact.jpeg);
     background-size: cover;
 }
