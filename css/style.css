@@ -34,20 +34,40 @@ section{
     background-image: url(../img/header.jpeg);
     background-position: center;
     background-size:cover ;
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
 .about{
     color : White;
-
     background-color: rgb(0, 80, 199);
+    overflow: hidden;
 }
 
 .skills{
     color : white ;
     background-image: url(../img/skills.jpeg);
     background-size: cover;
+    background-attachment: fixed;
 }
-
+.socmed .icn{
+    opacity: 0;
+    transition: 1s;
+    transform: translate(-30px,0);
+}
+.socmed .icn.landing{
+    opacity: 1;
+    transform: translate(0,0);
+}
+.socmed .judul{
+    opacity: 0;
+    transition: 3.5s;
+    transform: translate(0,-40px);
+}
+.socmed .judul.landing{
+    opacity: 1;
+    transform: translate(0,0);
+}
 .php{
     background-color: #8993be;
 }
